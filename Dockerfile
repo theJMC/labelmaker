@@ -8,6 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
  
 # App code
 COPY app.py generate_labels.py ./
+COPY *.ttf ./
  
 EXPOSE 5000
  
